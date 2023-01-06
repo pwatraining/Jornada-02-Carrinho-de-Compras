@@ -21,9 +21,7 @@ package br.com.pwatraining;
 //Inicio da Importacao de Recursos
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
 //Fim da Importacao de Recursos
 
@@ -289,19 +287,22 @@ class ItemCompra {
   
 	private Long idProduto;
   	private Long quantidade;
-  
-	public Long getQuantidade() {
-		return quantidade;
-	}
-	public void setQuantidade(Long quantidade) {
-		this.quantidade = quantidade;
-	}
+  	
+  	
 	public Long getIdProduto() {
 		return idProduto;
 	}
 	public void setIdProduto(Long idProduto) {
 		this.idProduto = idProduto;
 	}
+	public Long getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(Long quantidade) {
+		this.quantidade = quantidade;
+	}
+  
+
 }
 
 /*
