@@ -25,7 +25,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-//Fim da Importação de Recursos
+//Fim da Importacao de Recursos
 
 
 public class Principal {
@@ -40,7 +40,7 @@ public class Principal {
 		//   ====================================================================
 		//   Produto                       QTD       PU        ICMS      SUBTOTAL
 		//   ====================================================================
-		//   Boné Crocodilo                1         289.0     18.0      341.0     
+		//   Bone Crocodilo                1         289.0     18.0      341.0     
 		//   Camiseta Crocodilo            1         199.0     16.0      230.8     
 		//   ====================================================================
 		//   TOTAL: 571.8     
@@ -65,7 +65,7 @@ public class Principal {
 		
 		lacoste.imprimirCompra(carrinhoCompras);
 		
-		// Final do seu espaço de trabalho
+		// Final do seu espaco de trabalho
 	}
 }
 
